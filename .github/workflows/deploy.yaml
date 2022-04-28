@@ -34,4 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: nightyx-remy.github.io
+          cname: Nightyx-remy.github.io
