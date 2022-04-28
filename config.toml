@@ -1,4 +1,4 @@
-baseURL = "nightyx-remy.github.io/notes"
+baseURL = "https://nightyx-remy.github.io/notes/"
 languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 pygmentsUseClasses = true
