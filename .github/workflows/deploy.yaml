@@ -31,7 +31,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ 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 }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
           cname: nightyx-remy.github.io
