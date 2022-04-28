@@ -1,5 +1,5 @@
-name: Jacky Zhao
-enableToc: true
+name: Remy Forjanic
+enableToc: false
 openToc: false
 enableLinkPreview: true
 enableLatex: true
@@ -7,9 +7,7 @@ description:
   Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
   Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🪴 Quartz 3.2"
+  "Remy's notes"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/nightyx-remy
