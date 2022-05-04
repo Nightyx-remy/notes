@@ -2,4 +2,12 @@
 title: "Remy's notes"
 ---
 
-# <span class="highlight-blue">Hello</span>
+<div class="note">
+	<p class="note-head highlight-seagreen">
+		note
+	</p>
+	<p class="note-bg">
+		notes ...
+	</p>
+</div>
+
