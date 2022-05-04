@@ -30,4 +30,4 @@ title: "Lesson 1"
     </p>
 </div>
 
-![](/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png)
+![[Differential Equation & Laplace/res/lesson 1/1.png]]
