@@ -21,6 +21,7 @@ title: "Lesson 1"
 	- The <span class="salmon bold">dependant</span> variable.<br>
 	</p>
 </div>
+<br>
 
 <div class="note">
     <p class="note-head highlight-blue">Rl Circuit</p>
@@ -28,3 +29,5 @@ title: "Lesson 1"
 	    <img src="Nightyx-remy.github.io/notes/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png">    
     </p>
 </div>
+
+![](Differential%20Equation%20&%20Laplace/res/lesson%201/1.png)
