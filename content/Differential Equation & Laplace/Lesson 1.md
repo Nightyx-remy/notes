@@ -36,3 +36,5 @@ title: "Lesson 1"
 	    <span class="blue bold">t</span> is the <span class="blue bold">independent</span> variable, <span class="blue bold">i</span> is the <span class="blue bold">dependent</span> variable.
     </p>
 </div>
+
+$$\htmlClass{blue}{Hello}$$
