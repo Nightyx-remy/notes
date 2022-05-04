@@ -27,10 +27,10 @@ title: "Lesson 1"
     <p class="note-head highlight-blue">Rl Circuit</p>
     <p class="note-bg">   
 	    Consider the following RL circuit:<br>
-	    <img src="https://nightyx-remy.github.io/notes/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png" style="height: 200px;"> <br>	    
-	    The voltage across the resistor: $\class{salmon}{u_{R}} = i\times R$<br>
-	    The voltage across the inductor: $\class{blue}{u_{L}} = L\times \frac{di}{dt}$<br>
-	    Kirchhoff's voltage law: $\class{blue}{u_{L}} + \class{salmon}{u_{R}} = E(t)$<br>
+	    <img src="https://nightyx-remy.github.io/notes/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png" style="height: 200px;width: auto"> <br>	    
+	    The voltage across the resistor: $\htmlClass{salmon}{u_{R}} = i\times R$<br>
+	    The voltage across the inductor: $\htmlClass{blue}{u_{L}} = L\times \frac{di}{dt}$<br>
+	    Kirchhoff's voltage law: $\htmlClass{blue}{u_{L}} + \htmlClass{salmon}{u_{R}} = E(t)$<br>
 	    $$L\times \frac{di}{dt} + i\times R = E(t)$$
 	    A differential equation!<br>
 	    <span class="blue bold">t</span> is the <span class="blue bold">independent</span> variable, <span class="blue bold">i</span> is the <span class="blue bold">dependent</span> variable.
