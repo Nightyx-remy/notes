@@ -3,7 +3,7 @@ title: "Remy's notes"
 ---
 
 <div class="note">
-	<p class="note-head highlight-seagreen">
+	<p class="highlight-seagreen note-head">
 		note
 	</p>
 	<p class="note-bg">
