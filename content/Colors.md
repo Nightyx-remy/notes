@@ -1,4 +1,4 @@
-# > [Dashboard](_index.md)
+# > [Dashboard]()
 
 <div class="note">
     <p class="note-head highlight-yellow">yellow</p>

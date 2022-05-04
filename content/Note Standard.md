@@ -1,4 +1,4 @@
-# > [Dashboard](_index.md)
+# > [Dashboard]()
 
 # Basic notes
 

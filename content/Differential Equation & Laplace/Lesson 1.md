@@ -2,7 +2,7 @@
 title: "Lesson 1"
 ---
 
-# > [Dashboard](_index.md) > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Equation</p>
@@ -30,4 +30,4 @@ title: "Lesson 1"
     </p>
 </div>
 
-![](Differential%20Equation%20&%20Laplace/res/lesson%201/1.png)
+![](/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png)
