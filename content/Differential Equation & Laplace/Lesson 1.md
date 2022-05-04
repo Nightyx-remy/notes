@@ -26,7 +26,7 @@ title: "Lesson 1"
 <div class="note">
     <p class="note-head highlight-blue">Rl Circuit</p>
     <p class="note-bg">
-	    <img src="Nightyx-remy.github.io/notes/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png">    
+	    <img src="https://nightyx-remy.github.io/notes/Differential%20Equation%20&%20Laplace/res/lesson%201/1.png">    
     </p>
 </div>
 
