@@ -1,3 +1,7 @@
+---
+title: "Note Standard"
+---
+
 # > [Dashboard]()
 
 # Basic notes
@@ -11,7 +15,7 @@
 <br>
 
 <div class="note">
-    <p class="note-head highlight-blue">Exaplanation</p>
+    <p class="note-head highlight-blue">Explanation</p>
     <p class="note-bg">
         This is an <span class="blue bold">important</span> word!
     </p>

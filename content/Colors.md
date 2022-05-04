@@ -1,3 +1,7 @@
+---
+title: "Colors"
+---
+
 # > [Dashboard]()
 
 <div class="note">
