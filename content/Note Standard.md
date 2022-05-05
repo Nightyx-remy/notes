@@ -28,6 +28,13 @@ title: "Note Standard"
         This is an <span class="springgreen bold">important</span> word!
     </p>
 </div>
+<br>
+<div class="note">
+    <p class="note-head highlight-fushia">Note / Remark</p>
+    <p class="note-bg">
+        This is an <span class="fushia bold">important</span> word!
+    </p>
+</div>
 
 # Note with sub sections
 

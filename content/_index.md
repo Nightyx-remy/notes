@@ -2,6 +2,8 @@
 title: "Remy's notes"
 ---
 
+# [Links to old nots](https://nightyx-remy.github.io/quartz)
+
 # <span class="highlight-blue">1st Quarter</span>
 
 <br>
