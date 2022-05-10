@@ -1,0 +1,21 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": false,
+  "grid": false,
+  "expressions": [
+    {
+      "expr": "\\sin(x)"
+    }
+  ],
+  "x_axis": {
+    "step": "2",
+    "min": -9.42,
+    "max": 9.42
+  },
+  "y_axis": {
+    "step": "2",
+    "min": -3,
+    "max": 3
+  }
+}

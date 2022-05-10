@@ -1,0 +1,23 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": false,
+  "grid": false,
+  "expressions": [
+    {
+      "expr": "\\{\\sin(x)>0.7:0.7,\\sin(x)\\}"
+    }
+  ],
+  "x_axis": {
+    "step": "2",
+    "min": -10,
+    "max": 10,
+    "label": "Vs"
+  },
+  "y_axis": {
+    "step": "2",
+    "min": -4,
+    "max": 4,
+    "label": "Vo"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": false,
+  "grid": false,
+  "expressions": [
+    {
+      "expr": "\\abs(\\sin(x))"
+    }
+  ],
+  "x_axis": {
+    "step": "2",
+    "min": -5,
+    "max": 5,
+    "label": "Vs"
+  },
+  "y_axis": {
+    "step": "2",
+    "min": -2,
+    "max": 2,
+    "label": "Vo"
+  }
+}

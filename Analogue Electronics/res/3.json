@@ -1,0 +1,34 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": false,
+  "grid": false,
+  "expressions": [
+    {
+      "expr": "\\{x < -2:-x-2\\}"
+    },
+    {
+      "expr": "\\{x > 2:x-2\\}"
+    },
+    {
+      "expr": "(-2,0)",
+      "label": "-Vy"
+    },
+    {
+      "expr": "(2,0)",
+      "label": "Vy"
+    }
+  ],
+  "x_axis": {
+    "step": "2",
+    "min": -5,
+    "max": 5,
+    "label": "Vs"
+  },
+  "y_axis": {
+    "step": "2",
+    "min": -2,
+    "max": 2,
+    "label": "Vo"
+  }
+}
