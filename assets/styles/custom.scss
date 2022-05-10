@@ -54,7 +54,12 @@
 	border-radius: 4px 4px 0px 0px !important;
 }
 
-.table-alignment, .table-alignment td, .table-alignment th {
+.tab {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.table-alignment, .table-alignment td, .table-alignment th, .table-alignment th {
   border-color: transparent;
 }
 
@@ -62,7 +67,7 @@ table {
   border-spacing: 0px;
 }
 
-td, th {
+td, th, tr {
   border: solid var(--outlinegray) 1px;
 }
 
