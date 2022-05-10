@@ -54,3 +54,82 @@
   {{end}}
 {{end}}
 {{ $content | safeHTML }}
+<script type="text/javascript">
+  window.onload = load_graphs();
+
+  function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+  }
+
+  function load_graphs() {
+    for (element of document.getElementsByClassName("graph")) {
+      var calculator = Desmos.GraphingCalculator(element, {
+        keypad: false,
+        expressions: false,
+        zoomButtons: false,
+        invertedColors: localStorage.getItem('theme') == "dark",
+      });
+
+      var path = element.getAttribute("src");
+
+      if (path != null && path != "") {
+        readTextFile(path, function (text) {
+          var data = JSON.parse(text);
+
+          // Change axis
+          calculator.updateSettings({
+            xAxisStep: data.x_axis.step ?? 0,
+            xAxisArrowMode: Desmos.AxisArrowModes.BOTH,
+            xAxisLabel: data.x_axis.label ?? "",
+            yAxisStep: data.y_axis.step ?? 0,
+            yAxisArrowMode: Desmos.AxisArrowModes.BOTH,
+            yAxisLabel: data.y_axis.label ?? "",
+            zoomFit: data.fit ?? false,
+            lockViewport: data.lock ?? false,
+            expressions: data.show_expressions ?? false,
+            showGrid: data.grid ?? true,
+          });
+          calculator.setMathBounds({
+              left: data.x_axis.min,
+              right: data.x_axis.max,
+              bottom: data.y_axis.min,
+              top: data.y_axis.max
+          });
+
+          // Load expressions
+          for (expression of data.expressions) {
+            calculator.setExpression({
+              latex: expression.expr,
+              label: expression.label,
+              showLabel: expression.label != null,
+              color: expression.color
+            });
+          }
+        });
+      } else {
+        // Old code
+        calculator.updateSettings({
+          xAxisStep: element.getAttribute("x_step") ?? 0,
+          yAxisStep: element.getAttribute("y_step") ?? 0,
+        });
+        var expressions = element.getAttribute("expr").split(";;");
+        for (expression of expressions) {
+          var expr_parts = expression.split(";,");
+          calculator.setExpression({
+            latex: expr_parts[0],
+            label: expr_parts[1] ?? "",
+            showLabel: expr_parts.length > 1,
+          });
+        }
+      }
+    }
+  }
+</script>

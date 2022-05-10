@@ -1,0 +1,23 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": false,
+  "grid": false,
+  "expressions": [
+    {
+      "expr": "\\{x<-8:-e^{3(-x-8)},e^{x}-1\\}"
+    }
+  ],
+  "x_axis": {
+    "step": "2",
+    "min": -10,
+    "max": 10,
+    "label": "Vd"
+  },
+  "y_axis": {
+    "step": "2",
+    "min": -4,
+    "max": 4,
+    "label": "Id"
+  }
+}

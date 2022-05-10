@@ -38,3 +38,49 @@ title: "Lesson 3"
         If you know one point of a specific solution then the rest is fixed.<br>
     </p>
 </div>
+<br>
+
+<div class="note">
+    <p class="note-head highlight-springgreen">Example</p>
+    <p class="note-bg">
+        $$\frac{dy}{dx}=\frac{-x}{y}, y(0) = 4$$
+        We will solve the differential equation by separating the variables:<br>
+        $$\begin{align*}y\space dy &= -x\space dx\newline\int{y\space dy}&=\int{-x\space dx}\newline \frac{1}{2}y^{2}&=\frac{-1}{2}x^{2}+C_{1}\newline x^{2}+y^{2}&=C\end{align*}$$
+        These are indeed circles. Substitute the boundary value: if $x = 0$ then $y = 4$, so $C = 16$. The radius is $4$<br>
+    </p>
+</div>
+<br>
+
+<div class="note">
+    <p class="note-head highlight-springgreen">Example</p>
+    <p class="note-bg">
+        $$\frac{dx}{dt}=\frac{e^{3t}}{x}, x(0) = 2$$
+        $$x^{2} = \frac{2}{3}e^{3t}+2C$$
+	$x(0) = 2$ means: if t=0 then x=2, Substitute:<br>
+	$$2^{2}=\frac{2}{3}e^{0}+2C$$
+	$$4=\frac{2}{3}+2C \rightarrow 2C = 4 - \frac{2}{3} = \frac{10}{3}$$
+	The solution is $x=\sqrt{\frac{2}{3}e^{3t} + \frac{10}{3}}$
+    </p>
+</div>
+<br>
+
+<div class="note">
+    <p class="note-head highlight-springgreen">Example</p>
+    <p class="note-bg">
+        A cake is baked in an oven at $120\degree C$<br>
+        At time $t = 0$ it is moved from the oven into the open air, $T_{0} = 20\degree C$.<br>
+        After 5 minutes, the temperature of the cake is $80\degree C$.<br>
+        Give the temperature of the cake as a function of time in minutes.<br>
+        Corresponding differential equation:<br>
+        $$\frac{dT}{dt}=k(T-T_{0}), T_{0}=20, T(0)=120, T(5)=80$$
+        <span class="springgreen bold">The solution:</span><br>
+        $$\begin{align*} \frac{dT}{dt}&=k(T-T_{0})\newline \frac{1}{T-T_{0}}dT &= k\space dt\newline\int{\frac{1}{T-T_{0}}}dT&=\int{k\space dt}\newline ln(T-T_{0})&=kt+C_{1}\newline T - T_{0} &= C\space e_{kt}\newline T &= T_{0}+C\space e^{kt} \end{align*}$$
+        $$T=T_{0} + C\space e^{kt}, T(0) = 120, T(5) = 80, T_{0} = 20$$
+        $$120=20 + C\rightarrow C = 100$$
+        $$80=20+100\cdot e_{5k}\newline e^{5k}=\frac{60}{100}=\frac{3}{5}\newline 5k=ln(\frac{3}{5})\newline k = \frac{1}{5}ln(\frac{3}{5})\approx -0.102$$
+        $$T = 20 + 100 e^-0.102t$$
+    </p>
+    <center class="note-bg">
+	<div class="graph" src="../../Differential Equation & Laplace/res/lesson 3/1.json" style="width: 400px; height: 200px;"></div>	
+    </center>
+</div>

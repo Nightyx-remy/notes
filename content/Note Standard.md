@@ -65,3 +65,18 @@ title: "Note Standard"
 	</p>
 </div>
 
+# Graphs
+<div class="graph" src="../Differential Equation & Laplace/res/lesson 3/1.json" style="width: 400px; height: 200px;"></div>
+<br>
+
+```html
+<div class="graph" src="../Differential Equation & Laplace/res/lesson 3/1.json" style="width: 400px; height: 200px;"></div>
+```
+
+# Images
+<img src="../Analogue Electronics/res/1.png" style="height: 200px;width: auto"> <br>	
+<br>
+
+```html
+<img src="../Analogue Electronics/res/1.png" style="height: 200px;width: auto"> <br>	
+```

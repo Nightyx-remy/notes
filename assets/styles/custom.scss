@@ -54,6 +54,10 @@
 	border-radius: 4px 4px 0px 0px !important;
 }
 
+.table-alignment, .table-alignment td, .table-alignment th {
+  border-color: transparent;
+}
+
 table {
   border-spacing: 0px;
 }

@@ -14,6 +14,7 @@ const switchTheme = (e) => {
     document.documentElement.setAttribute('saved-theme', 'light')
     localStorage.setItem('theme', 'light')
   }
+  window.location.reload();
 }
 
 window.addEventListener('DOMContentLoaded', () => {
