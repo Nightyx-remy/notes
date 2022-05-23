@@ -1,0 +1,27 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": false,
+  "grid": true,
+  "expressions": [
+    {
+      "expr": "R = 100"
+    },
+    {
+      "expr": "C = 10*10^{-6}"
+    },
+    {
+      "expr": "20*\\log(1/((R*C*x)^2 + 1))"
+    }
+  ],
+  "x_axis": {
+    "step": "200",
+    "min": 0,
+    "max": 1000
+  },
+  "y_axis": {
+    "step": "1",
+    "min": -10,
+    "max": 2
+  }
+}

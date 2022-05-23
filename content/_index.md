@@ -14,6 +14,7 @@ title: "Remy's notes"
 
 # <span class="highlight-blue">3rd Quarter</span>
 
+### [Electrics Circuits AC](Electric%20Circuits%20AC/Electrics%20Circuits%20AC.md)
 <br>
 
 # <span class="highlight-blue">4th Quarter</span>

@@ -1,0 +1,24 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": true,
+  "grid": false,
+  "expressions": [
+    {
+      "expr": "-e^{-x+3}+3"
+    },
+    {
+      "expr": "-e^{-x+4}+2"
+    }
+  ],
+  "x_axis": {
+    "step": "2",
+    "min": -9.42,
+    "max": 9.42
+  },
+  "y_axis": {
+    "step": "1",
+    "min": -2,
+    "max": 5
+  }
+}
