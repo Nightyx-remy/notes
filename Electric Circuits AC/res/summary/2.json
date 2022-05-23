@@ -1,0 +1,27 @@
+{
+  "fit": false,
+  "lock": true,
+  "show_expressions": true,
+  "grid": true,
+  "expressions": [
+    {
+      "expr": "R = 100"
+    },
+    {
+      "expr": "C = 10*10^{-6}"
+    },
+    {
+      "expr": "-\\arctan(x*R*C)*180/\\pi"
+    }
+  ],
+  "x_axis": {
+    "step": "200",
+    "min": 0,
+    "max": 50000
+  },
+  "y_axis": {
+    "step": "15",
+    "min": -90,
+    "max": 90
+  }
+}
