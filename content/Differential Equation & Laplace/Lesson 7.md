@@ -2,7 +2,7 @@
 title: "Lesson 7"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Boundary values</p>
@@ -68,3 +68,5 @@ title: "Lesson 7"
         Solution: $x = 2t - \frac{8}{3} + C_{1}e^{-3t} + C_{2}e^{-t}$<br>
     </p>
 </div>
+
+# <center><a href="../Lesson-6">Lesson 6</a> ⮜ <a href="../Lesson-7">...</a> ⮞ <a href="../Lesson-8">Lesson 8</a></center>

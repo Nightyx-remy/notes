@@ -2,7 +2,7 @@
 title: "Lesson 5"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Non homogenous differential equation</p>
@@ -58,3 +58,6 @@ title: "Lesson 5"
         The general solutions is: $x = \frac{2}{3}t + \frac{1}{9} + C\cdot e^{-3t}$<br>
         </p>
 </div>
+<br>
+
+# <center><a href="../Lesson-4">Lesson 4</a> ⮜ <a href="../Lesson-5">...</a> ⮞ <a href="../Lesson-6">Lesson 6</a></center>

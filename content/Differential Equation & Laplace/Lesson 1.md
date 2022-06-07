@@ -2,7 +2,7 @@
 title: "Lesson 1"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Equation</p>
@@ -204,4 +204,6 @@ title: "Lesson 1"
         Substitute: $x = 0$, then $\frac{dx}{dt} = 0$ and $\frac{d^{2}x}{dt^{2}} = 0$, so $0 + 5\cdot0 = 6\cdot0$.<br>And that is correct, so this differential equation is <span class="springgreen bold">homogeneous</span>.<br>
     </p>
 </div>
+<br>
 
+# <center><a href="../Lesson-1">...</a> ⮞ <a href="../Lesson-2">Lesson 2</a></center>

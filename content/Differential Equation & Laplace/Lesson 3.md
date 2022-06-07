@@ -2,7 +2,7 @@
 title: "Lesson 3"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Direction field</p>
@@ -84,3 +84,6 @@ title: "Lesson 3"
 	<div class="graph" src="../../Differential Equation & Laplace/res/lesson 3/1.json" style="width: 400px; height: 200px;"></div>	
     </center>
 </div>
+<br>
+
+# <center><a href="../Lesson-2">Lesson 2</a> ⮜ <a href="../Lesson-3">...</a> ⮞ <a href="../Lesson-4">Lesson 4</a></center>

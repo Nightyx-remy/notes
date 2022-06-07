@@ -2,7 +2,7 @@
 title: "Bipolar Junction Transistor"
 ---
 
-# > [Dashboard]() > [Analogue Electronics](Analogue%20Electronics/Analogue%20Electronics.md)
+# ➤ [Dashboard]() ➤ [Analogue Electronics](Analogue%20Electronics/Analogue%20Electronics.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Transistor structure</p>
@@ -355,3 +355,6 @@ title: "Bipolar Junction Transistor"
         [TODO: example page 26]
     </p>
 </div>
+<br>
+
+# <center><a href="../Semiconductor-diodes">Semiconductor diodes</a> ⮜ <a href="../Bipolar-Junction-Transistor">...</a> ⮞ <a href="../Field-effect-transistor">Field Effect Transistor</a></center>

@@ -2,7 +2,7 @@
 title: "Lesson 4"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-blue">Linear first-order homogenous differential equations</p>
@@ -41,3 +41,6 @@ title: "Lesson 4"
         <span class="springgreen bold">Simplify: </span> $x = C\cdot e^{ln(t^{-3})} = \frac{C}{t^{3}}$
     </p>
 </div>
+<br>
+
+# <center><a href="../Lesson-3">Lesson 3</a> ⮜ <a href="../Lesson-4">...</a> ⮞ <a href="../Lesson-5">Lesson 5</a></center>

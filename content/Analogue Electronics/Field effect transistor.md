@@ -2,7 +2,7 @@
 title: "Field effect transistor"
 ---
 
-# > [Dashboard]() > [Analogue Electronics](Analogue%20Electronics/Analogue%20Electronics.md)
+# ➤ [Dashboard]() ➤  [Analogue Electronics](Analogue%20Electronics/Analogue%20Electronics.md)
 
 <div class="note">
     <p class="note-head highlight-blue">FET vs BJT</p>
@@ -188,3 +188,6 @@ title: "Field effect transistor"
 	    </p>
     </div>
 </div>
+<br>
+
+# <center><a href="../Bipolar-Junction-Transistor">Bipolar Junction Transistor</a> ⮜ <a href="../Field-effect-transistor">...</a> ⮞ <a href="../Op-Amp">Op-amp</a></center>

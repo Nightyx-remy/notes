@@ -2,7 +2,7 @@
 title: "Lesson 6"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Linear higher-order differential equations</p>
@@ -104,3 +104,6 @@ title: "Lesson 6"
 	$$x = C_{1}e^{at}\cdot\cos(bt)+C_{2}\cdot e^{at}\cdot\sin(bt)$$
     </p>
 </div>
+<br>
+
+# <center><a href="../Lesson-5">Lesson 5</a> ⮜ <a href="../Lesson-6">...</a> ⮞ <a href="../Lesson-7">Lesson 7</a></center>

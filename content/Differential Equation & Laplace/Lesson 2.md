@@ -2,7 +2,7 @@
 title: "Lesson 2"
 ---
 
-# > [Dashboard]() > [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
+# ➤ [Dashboard]() ➤ [Differential Equation & Laplace](Differential%20Equation%20&%20Laplace/Differential%20Equation%20&%20Laplace.md)
 
 <div class="note">
     <p class="note-head highlight-blue">Serparating variables</p>
@@ -57,3 +57,6 @@ title: "Lesson 2"
         $$x=5+C\cdot e^{\frac{1}{2}\arctan\left(\frac{t}{2}\right)}$$
     </p>
 </div>
+<br>
+
+# <center><a href="../Lesson-1">Lesson 1</a> ⮜ <a href="../Lesson-2">...</a> ⮞ <a href="../Lesson-3">Lesson 3</a></center>

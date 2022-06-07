@@ -2,7 +2,7 @@
 title: "Semiconductor diodes"
 ---
 
-# > [Dashboard]() > [Analogue Electronics](Analogue%20Electronics/Analogue%20Electronics.md)
+# ➤ [Dashboard]() ➤ [Analogue Electronics](Analogue%20Electronics/Analogue%20Electronics.md)
 
 <div class="note">
     <p class="note-head highlight-salmon">Diode</p>
@@ -177,3 +177,5 @@ title: "Semiconductor diodes"
     </div>
 </div>
 <br>
+
+# <center><a href="../Semiconductor-transistor">...</a> ⮞ <a href="../Bipolar-Junction-Transistor">Bipolar Junction Transistor</a></center>
