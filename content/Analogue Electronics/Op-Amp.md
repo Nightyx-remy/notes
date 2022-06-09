@@ -13,25 +13,36 @@ title: "Op-Amp"
 	        • And one ouput<br>
 	        • Also power connection (note no explicit ground)<br>
 	</p>
-	<center><table style="width: 50%; text-align: center">
-		<tr>
-			<td>Input</td>
-			<td>Output</td>
+	<center>
+	<table style="border: none; text-align: center">
+		<tr style="border: none;">
+			<td style="border: none; ">
+				<center class="note-bg"><img src="../../Analogue Electronics/res/opamp/6.png" style="height: 200px;width: auto"></center><br>
+			</td>
+			<td style="border: none; ">
+				<center><table style="width: 100%; text-align: center">
+					<tr>
+						<td>Input</td>
+						<td>Output</td>
+					</tr>
+					<tr>
+						<td>$V_{1} > V_{2}$</td>
+						<td>$V^{+}$</td>
+					</tr>
+					<tr>
+						<td>$V_{2} > V_{1}$</td>
+						<td>$V^{-}$</td>
+					</tr>
+				</table></center>
+			</td>
 		</tr>
-		<tr>
-			<td>$V_{1} > V_{2}$</td>
-			<td>$V^{+}$</td>
-		</tr>
-		<tr>
-			<td>$V_{2} > V_{1}$</td>
-			<td>$V^{-}$</td>
-		</tr>
-	</table></center>
+	</table>
+	</center>	
 	</div>
 </div><br>
 
 <div class="note">
-    <p class="note-head highlight-springgreen">Application</p>
+    <p class="note-head highlight-springgreen">Application WIP</p>
     <div class="note-bg">
 	    <center><table style="width: 50%; text-align: center">
 		<tr>
@@ -54,7 +65,11 @@ title: "Op-Amp"
 	<p>
 		If we want to control a system when the temperature is greater than 25°C, we can design this circuit.<br>
 	</p>
-	TODO
+	<center class="note-bg"><img src="../../Analogue Electronics/res/opamp/5.png" style="height: 200px;width: auto"></center><br>
+	<p>
+		$$A_{v} = 1 + \frac{R_{f}}{R_{1}}$$
+		$$$$
+	</p>
     </div>
 </div>
 <br>
@@ -64,51 +79,50 @@ title: "Op-Amp"
     <p class="note-bg">
 	$$A_{v} = \frac{V_{o}}{V_{i}}=1$$
     </p>
-    <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/1.png" style="height: 100px;width: auto"></center><br>
+    <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/1.png" style="height: 100px;width: auto"></center>
+    <p class="note-bg">Works as a <span class="blue bold">buffer</span>.</p>
 </div>
 <br>
 
 <div class="note">
-    <p class="note-head highlight-blue">note</p>
+    <p class="note-head highlight-blue">Non-inverting amplifiers</p>
+    <div class="note-bg">
+	<center class="note-bg"><img src="../../Analogue Electronics/res/opamp/7.png" style="height: 200px;width: auto"></center>
+    </div>
     <p class="note-bg">
-        $$i_{1} = -\frac{V_{1}}{ R_{1}}$$
-        Current $i_{2}$ is given by:<br>
-        $$i_{2}= \frac{V_{1}-V_{0}}{R_{2}}$$
-	As before $i_{1} = i_{2}$, so that:<br>
-	$$\frac{-V_{1}}{R_{1}} = \frac{V_{1}-V_{0}}{?}$$
-	TODO
+	$$A_{v} = \frac{v_{o}}{v_{i}} = 1 + \frac{R_{2}}{R_{1}}$$
+	The purpose is <span class="blue bold">Amplification only</span>.
     </p>
 </div>
 <br>
 
 <div class="note">
     <p class="note-head highlight-blue">Inverting amplifier</p>
+    <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/2.png" style="height: 200px;width: auto"></center>
     <p class="note-bg">
-        $$i_{I} = \frac{V_{i}}{R_{1}} = V_{I}/R_{1}$$
-        $$V_{o} = v_{1} - i_{2}R_{2} = 0 - \left(\frac{V_{1}}{R_{1}}\right)R_{2}$$
-        $$A_{v} = \frac{V_{o}}{v_{I}} = \frac{-R_{2}}{R_{1}}$$
+        $$A_{v} = \frac{v_{o}}{v_{I}} = -\frac{R_{2}}{R_{1}}$$
 	The purpose is <span class="blue bold">Amplification, attenuation and inverting</span><br>
     </p>
-    <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/2.png" style="height: 100px;width: auto"></center><br>
 </div>
 <br>
 
 <div class="note">
     <p class="note-head highlight-blue">Summing Amplifier</p>
+    <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/8.png" style="height: 200px;width: auto"></center>
     <p class="note-bg">
         Amplifying the <span class="blue bold">superposition method</span><br>
         $$v_{o}(v_{I1}) = I_{1}R_{F} = \frac{-R_{F}}{R_{1}}v_{I1}$$
         $$v_{o}(v_{I2}) = I_{2}R_{F} = \frac{-R_{F}}{R_{2}}v_{I2}$$
         $$v_{o}(v_{I3}) = I_{3}R_{F} = \frac{-R_{F}}{R_{3}}v_{I3}$$
         $$v_{o} = v_{o}(v_{I1}) + v_{o}(v_{I2}) + v_{o}(v_{I3})$$
-        $$v_{o} = -(\frac{R_{F}}{R_{1}}v_{I1} + \frac{R_{F}}{R_{2}}v_{I2} + R_{F}/R_{3}v_{I3})$$
+        $$v_{o} = -\left(\frac{R_{F}}{R_{1}}v_{I1} + \frac{R_{F}}{R_{2}}v_{I2} + \frac{R_{F}}{R_{3}}v_{I3}\right)$$
         The purpose is <span class="blue bold">Summing, Amplification, Attenuation and Inverting</span><br>
     </p>
 </div>
 <br>
 
 <div class="note">
-    <p class="note-head highlight-blue">Difference Amplifier</p>
+    <p class="note-head highlight-blue">Difference Amplifier WIP</p>
     <p class="note-bg">
         $$v_{o1} = \frac{R_{2}}{R_{1}}v_{I1}$$
         $$v_{o2} = \left(\frac{1 + R_{2}}{R_{1}}\right)\left(\frac{R_{4}}{R_{3} + R_{4}}\right)v_{I2}$$
@@ -120,7 +134,7 @@ title: "Op-Amp"
 <br>
 
 <div class="note">
-    <p class="note-head highlight-blue">Current to Voltage converter</p>
+    <p class="note-head highlight-blue">Current to Voltage converter WIP</p>
     <p class="note-bg">
         $$i_{2} = i_{1} = i_{s}$$
         $$v_{o} = -i_{2}R_{F} = -i_{s}R_{F}$$
@@ -129,9 +143,9 @@ title: "Op-Amp"
 <br>
 
 <div class="note">
-    <p class="note-head highlight-blue">Voltage to Current converter</p>
+    <p class="note-head highlight-blue">Voltage to Current converter WIP</p>
     <p class="note-bg">
-        $$i_{L} = (\frac{R_{F}Z_{L}}{R_{1}R_{3}} - 1 - Z_{L}/R_{3})$$
+        $$i_{L} = \frac{\frac{R_{F}Z_{L}}{R_{1}R_{3}} - 1 - Z_{L}}{R_{3}}$$
     </p>
 </div>
 <br>
@@ -140,9 +154,17 @@ title: "Op-Amp"
     <p class="note-head highlight-blue">Integrator and Differentiator</p>
     <div class="note-bg">
         <table class="table-alignment">
+	        <tr style="text-align: center;">
+		        <td>Differentiator</td>
+		        <td>Integrator</td>
+	        </tr>
 	        <tr>
-		        <td>IMG</td>
-		        <td>IMG</td>
+		        <td>
+		        <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/9.png" style="height: 150px;width: auto"></center>
+		        </td>
+		        <td>
+		        <center class="note-bg"><img src="../../Analogue Electronics/res/opamp/10.png" style="height: 150px;width: auto"></center>
+		        </td>
 	        </tr>
 	        <tr>
 		        <td>$$v_{o} = -R_{2}C_{1} \frac{dv_{I}(t)}{dt}$$</td>
