@@ -71,6 +71,17 @@ td, th, tr {
   border: solid var(--outlinegray) 1px;
 }
 
+.nogap {
+  margin: 0;
+  padding: 0;
+}
+
+.normal {
+  color: var(--gray);
+  line-height: 1.5em;
+  font-family: Source Sans Pro;
+}
+
 .yellow {
   background-color: transparent;
   color: #FBF595;

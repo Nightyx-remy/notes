@@ -15,3 +15,4 @@ title: "Power Circuits"
 ### &emsp;[➤ Assignment 3](Power%20Circuits/Assignment%203%20embed.md)
 ### &emsp;[➤ Assignment 4](Power%20Circuits/Assignment%204%20embed.md)
 ### &emsp;[➤ Assignment 5](Power%20Circuits/Assignment%205%20embed.md)
+### &emsp;[➤ Assignment 6](Power%20Circuits/Assignment%206%20embed.md)

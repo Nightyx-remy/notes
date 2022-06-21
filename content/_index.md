@@ -16,6 +16,7 @@ title: "Remy's notes"
 # <span class="highlight-fushia">3rd Quarter</span>
 
 ### &emsp;[➤ Electrics Circuits AC](Electric%20Circuits%20AC/Electrics%20Circuits%20AC.md)
+### &emsp;[➤ Fix Images & Graphs - Differentiation and Integration](Differentiation%20and%20Integration/Differentiation%20and%20Integration.md)
 <br>
 
 # <span class="highlight-fushia">4th Quarter</span>

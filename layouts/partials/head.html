@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="{{$.Site.BaseURL}}/icon.png" />
   <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+  {{ if .Params.plotly }}
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  {{ end }}
 
     <!-- CSS Stylesheets and Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">

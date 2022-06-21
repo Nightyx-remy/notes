@@ -14,31 +14,31 @@ title: "Op-Amp"
 	        • Also power connection (note no explicit ground)<br>
 	</p>
 	<center>
-	<table style="border: none; text-align: center">
-		<tr style="border: none;">
-			<td style="border: none; ">
-				<center class="note-bg"><img src="../../Analogue Electronics/res/opamp/6.png" style="height: 200px;width: auto"></center><br>
-			</td>
-			<td style="border: none; ">
-				<center><table style="width: 100%; text-align: center">
-					<tr>
-						<td>Input</td>
-						<td>Output</td>
-					</tr>
-					<tr>
-						<td>$V_{1} > V_{2}$</td>
-						<td>$V^{+}$</td>
-					</tr>
-					<tr>
-						<td>$V_{2} > V_{1}$</td>
-						<td>$V^{-}$</td>
-					</tr>
-				</table></center>
-			</td>
-		</tr>
-	</table>
+		<table style="border: none; text-align: center">
+			<tr style="border: none;">
+				<td style="border: none; ">
+					<center class="note-bg"><img src="../../Analogue Electronics/res/opamp/6.png" style="height: 200px;width: auto"></center><br>
+				</td>
+				<td style="border: none; ">
+					<center><table style="width: 100%; text-align: center">
+						<tr>
+							<td>Input</td>
+							<td>Output</td>
+						</tr>
+						<tr>
+							<td>$V_{1} > V_{2}$</td>
+							<td>$V^{+}$</td>
+						</tr>
+						<tr>
+							<td>$V_{2} > V_{1}$</td>
+							<td>$V^{-}$</td>
+						</tr>
+					</table></center>
+				</td>
+			</tr>
+		</table>
 	</center>	
-	</div>
+    </div>
 </div><br>
 
 <div class="note">
@@ -155,8 +155,8 @@ title: "Op-Amp"
     <div class="note-bg">
         <table class="table-alignment">
 	        <tr style="text-align: center;">
-		        <td>Differentiator</td>
-		        <td>Integrator</td>
+		        <td class="bold">Differentiator</td>
+		        <td class="bold">Integrator</td>
 	        </tr>
 	        <tr>
 		        <td>
@@ -169,6 +169,48 @@ title: "Op-Amp"
 	        <tr>
 		        <td>$$v_{o} = -R_{2}C_{1} \frac{dv_{I}(t)}{dt}$$</td>
 		        <td>$$v_{o} = \frac{-1}{R_{1}C_{2}}\int_{0}^{t}v_{I}(t')dt'$$</td>
+	        </tr>
+	        <tr>
+		        <td style="text-align: center">
+			        <table>
+				        <tr>
+					        <td  class="bold" style="border: var(--outlinegray) solid 1px">Input Signal</td>
+					        <td  class="bold" style="border: var(--outlinegray) solid 1px">Output Signal</td>
+				        </tr>
+				        <tr>
+					        <td style="border: var(--outlinegray) solid 1px">Square Wave</td>
+					        <td style="border: var(--outlinegray) solid 1px">Spikes</td>
+				        </tr>
+				        <tr>
+					        <td style="border: var(--outlinegray) solid 1px">Triangular Wave</td>
+					        <td style="border: var(--outlinegray) solid 1px">Rectangular Wave</td>
+				        </tr>
+				        <tr>
+					        <td style="border: var(--outlinegray) solid 1px">Sine Wave</td>
+					        <td style="border: var(--outlinegray) solid 1px">Cosine Wave</td>
+				        </tr>
+			        </table>
+		        </td>
+		        <td style="text-align: center">
+			        <table>
+				        <tr>
+					        <td  class="bold" style="border: var(--outlinegray) solid 1px">Input Signal</td>
+					        <td  class="bold" style="border: var(--outlinegray) solid 1px">Output Signal</td>
+				        </tr>
+				        <tr>
+					        <td style="border: var(--outlinegray) solid 1px">Spikes</td>
+					        <td style="border: var(--outlinegray) solid 1px">Square Wave</td>
+				        </tr>
+				        <tr>
+					        <td style="border: var(--outlinegray) solid 1px">Rectangular Wave</td>
+					        <td style="border: var(--outlinegray) solid 1px">Triangular Wave</td>
+				        </tr>
+				        <tr>
+					        <td style="border: var(--outlinegray) solid 1px">Cosine Wave</td>
+					        <td style="border: var(--outlinegray) solid 1px">Sine Wave</td>
+				        </tr>
+			        </table>
+		        </td>
 	        </tr>
         </table>
     </div>
@@ -201,5 +243,37 @@ title: "Op-Amp"
     </p>
 </div>
 <br>
+
+<div class="note">
+    <p class="note-head highlight-blue">The AC Op-amp integrator with DC gain control</p>
+    <p class="note-bg">
+	DC Voltage Gain $\begin{aligned}Av_{0} = - \frac{R2}{R1}\end{aligned}$<br>
+	AC Voltage Gain $\begin{aligned}Av = \frac{-R_{2}}{R_{1}} \times \frac{1}{1+2\pi f C R_{2}}\end{aligned}$<br>
+	Corner frequency $\begin{aligned}f_{0} = \frac{1}{2\pi C R_{2}}\end{aligned}$<br>
+	[TODO: Image]<br>
+    </p>
+</div>
+<br>
+
+<div class="note">
+    <p class="note-head highlight-blue">High Pass Filter</p>
+    <p class="note-bg">
+        Show that the voltage transfer function is:<br>
+        $$A_{v} = \frac{-R_{2}}{R_{1}} \cdot \frac{j\omega R_{1} C_{1}}{1 + j\omega R_{1} C_{1}}$$
+        What is the voltage gain as the frequency becomes large?<br>
+        At what frequency is the magnitude of the gain a factor of $\sqrt{2}$ less than the high frequency limiting value?
+    </p>
+</div>
+<br>
+
+<div class="note">
+    <p class="note-head highlight-blue">Non-ideal Op-amp</p>
+    <p class="note-bg">
+        <span class="blue bold">Input voltage limits: </span> Two input voltageg limitations must be considered a DC input voltage limit and a differential signal input voltage.<br>
+        <span class="blue bold">Output voltage limits: </span> The output voltage of the op-amp can never exceed the limits of the DC supply voltage.<br>
+        <span class="blue bold">Output current limitation: </span> The maximim current out of or into the op-amp is determined by the current ratings of the output transistors. Practical op-amp circuits cannot source or sink an infinite amount of current.<br>
+        <span class="blue bold">Finite open-loop voltage gain: </span> The open-lopop
+    </p>
+</div>
 
 # <center><a href="../Field-effect-transistor">Field Effect Transistor</a> ⮜ <a href="../Op-Amp">...</a></center>
